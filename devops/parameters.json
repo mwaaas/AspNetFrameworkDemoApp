@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "1dfd3453-8fcc-460e-8d87-142001d96ed4"
+        },
+        "name": {
+            "value": "FmwangiDemoApp"
+        },
+        "location": {
+            "value": "South Central US"
+        },
+        "hostingPlanName": {
+            "value": "AccessibilitySvcPlan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "AccessibilityRG-PreProd"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "currentStack": {
+            "value": "dotnet"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "netFrameworkVersion": {
+            "value": "v4.0"
+        }
+    }
+}
